@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(255, 169, 169);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header
+{
+    background-color: coral;
+    color: wheat;
+}
+#navbar
+{
+    background-color: black;
+    color: white;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 20px;
+}
+#showcase
+{
+    background-image: url('./thh\(1\).jpg');
+    color: whitesmoke;
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#showcase h1{
+    color: white;
+    font-size: 39px;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-footer
+{
+    background-color: rgb(22, 20, 20);
+    color:rgba(255, 255, 255, 0.986);
+    text-align: center;
+    padding: 3px;
+   
+}

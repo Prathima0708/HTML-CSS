@@ -1,0 +1,149 @@
+h1
+{
+    color: green;
+}
+body
+{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0;
+}
+.box-1
+{
+    background-color:rgb(169, 199, 113);
+   border: 5px red solid;
+   padding: 20px;
+   margin: 20px 0;
+   /* min-height: 20px; */
+   max-height: 100px;
+   overflow-y: scroll;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.box-2
+{
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 20px 0;
+}
+.categories
+{
+    border: 3px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.categories h1{
+    text-align: center;
+}
+.categories ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: rgb(102, 26, 7);
+}
+.categories li{
+    border-bottom: dotted 1px brown;
+}
+.my-form
+{
+    padding: 20px;
+}
+.form-group{
+    padding-bottom: 15px;
+}
+.form-group label{
+    display: block;
+}
+.form-group input{
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color: rgb(188, 233, 84);
+    color: black;
+    padding: 10px;
+    width: 10%;
+    font-weight: bolder;
+    border-radius: 12px;
+}
+.button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: brown;
+    
+}
+.block
+{
+    float: left;
+    width: 30%;
+    border: 2px solid gold;
+    padding: 10px;
+    
+}
+#main-block
+{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar
+{
+    float: right;
+    width: 30%;
+    background-color: gray;
+    color: wheat;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width:800px;
+    height: 500px;
+    border: 3px solid rgb(0, 3, 2);
+    margin-top: 500px;
+    position: relative;
+    background-image: url('./th.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-box h1{
+    position: absolute;
+    top: 140px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+.my-list li:first-child
+{
+    background-color: rebeccapurple;
+}
+.my-list li:last-child
+{
+    background-color: rgb(21, 65, 4);
+}
+.my-list li:nth-child(3)
+{
+    background-color: rgb(179, 0, 164);
+}
+.my-list li:nth-child(even)
+{
+    background-color: rgb(63, 60, 63);
+}
